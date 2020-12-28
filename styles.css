@@ -1,0 +1,36 @@
+.mainDiv:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.leftDiv {
+    float: left;
+    width: 30%;
+}
+
+.middleDiv {
+    float: left;
+    width: 50%;
+}
+
+.rightDiv {
+    float: left;
+    width: 20%;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+    border: none;
+}
+
+tr, td {
+    text-align: left;
+}

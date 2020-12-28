@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+<!-- The website is made from scratch. I'm no web designer, but I tried my best :) -->
+
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PMX5W7230D"></script>
@@ -32,231 +34,50 @@
     <meta name="theme-color" content="#ffffff">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <style>
-        .leftDiv {
-            display: block;
-            position: fixed;
-            width: 30%;
-            float: left;
-        }
-
-        .middleDiv {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 40%;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        hr {
-            border: none;
-        }
-
-        a {
-            text-align: center;
-            font-size: 16px;
-            display: block;
-            height: 10px;
-        }
-
-        tr, td {
-            text-align: left;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-<div class="leftDiv">
-    <h1 style="text-align: center">Guangxin Liu</h1>
-    <img src="Images/profile_picture.svg" alt="profile picture" style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
-    <hr>
-    <hr>
-    <a href="https://www.linkedin.com/in/guangxin-liu/"><img src="Images/icon-linkedin.svg" width="25" height="25" alt="LinkedIn"></a>
-    <hr>
-    <hr>
-    <hr>
-    <a href="https://github.com/gl19"><img src="Images/icon-github.svg" width="30" height="30" alt="LinkedIn"></a>
-</div>
+<div class="mainDiv">
+    <div class="leftDiv">
+        <h1 style="text-align: center">Guangxin Liu</h1>
+        <img src="Images/profile_picture.svg" alt="profile picture" style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
+        <div style="display:block; text-align:center; padding-top: 10px;">
+            <a href="index.html">Home</a>
+            |
+            <a href="Pages/contact.html">Contact</a>
+            |
+            <a href="Pages/courses.html">Courses</a>
+        </div>
+    </div>
 
-<div class="middleDiv">
-    <h2>About Me</h2>
-    <p>Hello my name is Guangxin Liu and I am a current sophmore in Computer Science at the 
-        University of Illinois. I am pursing my bachelor's degree and hope to graduate in 
-        the fall semester of 2022. I am passionate about learning more about my field and 
-        having hands on experience.
-    </p>
-    <p>I am originally from Fort Collins, Colorado, but currently, I am living on campus and will
-        continue my studies here for the forseeable future.
-    </p>
+    <div class="middleDiv">
+        <h2>About Me</h2>
+            <p>Hello, my name is Guangxin Liu and I am a current sophomore in Computer Science at the 
+                University of Illinois. I am pursuing my bachelor's degree and hope to graduate after 
+                the 2022 fall semester. I am passionate about learning more about my field and 
+                having hands-on experience.
+            </p>
+            <p>I am originally from Fort Collins, Colorado, but currently, I am living on campus and will
+                continue my studies here for the forseeable future.
+            </p>
+        <h2>This Website</h2>
+            <p>This is my personal website written by me! Everything you see is written from scratch from my 
+                editor. While I do use HTML for my job, I don't have much experience in web design, so I kept
+                this site nice and clean. For now, the website is still under construction, but I hope to finish
+                by the end of winter break.
+            </p>
+            <p>Since I don't use social media much, I hope to keep this website up to date. You can find things
+                like my education history and projects through the navigation bar on the left.
+            </p>
+    </div>
 
-    <h2>Course History</h2>
-    <h3 style="height: 10px">In Progress (Spring 2021)</h3>
-    <table style="width: 100%">
-        <colgroup>
-            <col span="1" style="width: 25%;">
-            <col span="1" style="width: 75%;">
-        </colgroup>
-        <tbody>
-            <tr>
-                <th>Course Number</th>
-                <th>Course Name</th>
-            </tr>
-            <tr>
-                <td>CS 210</td>
-                <td>Ethical & Professional Issues</td>
-            </tr>
-            <tr>
-                <td>CS 374</td>
-                <td>Intro to Algs & Models of Comp</td>
-            </tr>
-            <tr>
-                <td>CS 411</td>
-                <td>Database Systems</td>
-            </tr>
-            <tr>
-                <td>CS 465</td>
-                <td>User Interface Design</td>
-            </tr>
-            <tr>
-                <td>PS 201</td>
-                <td>US Racial & Ethnic Politics</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h3 style="height: 10px">Computer Science Classes</h3>
-    <table style="width: 100%">
-        <colgroup>
-            <col span="1" style="width: 25%;">
-            <col span="1" style="width: 75%;">
-        </colgroup>
-        <tbody>
-            <tr>
-                <th>Course Number</th>
-                <th>Course Name</th>
-            </tr>
-            <tr>
-                <td>CS 125</td>
-                <td>Introduction to Computer Science</td>
-            </tr>
-            <tr>
-                <td>CS 126</td>
-                <td>Software Design Studio</td>
-            </tr>
-            <tr>
-                <td>CS 173</td>
-                <td>Discrete Structures</td>
-            </tr>
-            <tr>
-                <td>CS 225</td>
-                <td>Introduction to Data Structures and Algorithms with C++</td>
-            </tr>
-            <tr>
-                <td>CS 233</td>
-                <td>Computer Architecture</td>
-            </tr>
-            <tr>
-                <td>CS 357</td>
-                <td>Numerical Methods</td>
-            </tr>
-            <tr>
-                <td>CS 361</td>
-                <td>Probability & Statistics for Computer Science</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h3 style="height: 10px">Department Required Classes</h3>
-    <table style="width: 100%">
-        <colgroup>
-            <col span="1" style="width: 25%;">
-            <col span="1" style="width: 75%;">
-        </colgroup>
-        <tbody>
-            <tr>
-                <th>Course Number</th>
-                <th>Course Name</th>
-            </tr>
-            <tr>
-                <td>CHEM 102*</td>
-                <td>General Chemistry I</td>
-            </tr>
-            <tr>
-                <td>MATH 220*</td>
-                <td>Calculus I</td>
-            </tr>
-            <tr>
-                <td>MATH 231*</td>
-                <td>Calculus II</td>
-            </tr>
-            <tr>
-                <td>MATH 241**</td>
-                <td>Calculus III</td>
-            </tr>
-            <tr>
-                <td>MATH 415</td>
-                <td>Applied Linear Algebra</td>
-            </tr>
-            <tr>
-                <td>NRES 100*</td>
-                <td>Fundamentals of Env Sci</td>
-            </tr>
-            <tr>
-                <td>PHYS 211</td>
-                <td>University Physics: Mechanics</td>
-            </tr>
-            <tr>
-                <td>PHYS 212**</td>
-                <td>University Physics: Elec & Mag</td>
-            </tr>           
-        </tbody>
-    </table>
-
-    <h3 style="height: 10px">Elective Classes</h3>
-    <table style="width: 100%">
-        <colgroup>
-            <col span="1" style="width: 25%;">
-            <col span="1" style="width: 75%;">
-        </colgroup>
-        <tbody>
-            <tr>
-                <th>Course Number</th>
-                <th>Course Name</th>
-            </tr>
-            <tr>
-                <td>ACE 240**</td>
-                <td>Personal Financial Planning</td>
-            </tr>
-            <tr>
-                <td>BTW 250</td>
-                <td>Principles Bus Comm</td>
-            </tr>
-            <tr>
-                <td>ECON 102</td>
-                <td>Microeconomic Principles</td>
-            </tr>
-            <tr>
-                <td>HIST 142</td>
-                <td>Western Civ Since 1660</td>
-            </tr>
-            <tr>
-                <td>MUS 133</td>
-                <td>Introduction to World Music</td>
-            </tr>
-        </tbody>
-    </table>
-    <p><em>* Advanced Placement Credit<br>** Transfer Equivalent Class</em></p>
-
-    <h2>Hobbies / Interests</h2>
-    <ul>
-        <li>Cooking</li>
-        <li>Swimming</li>
-        <li>League of Legends</li>
-    </ul>
+    <div class="rightDiv">
+        <ul style="list-style: none; text-align: right;">
+            <li style="padding-top: 15px; padding-bottom: 15px; padding-right: 15px;"><a href="https://www.linkedin.com/in/guangxin-liu/"><img src="Images/icon-linkedin.svg" width="30px" height="30px" alt="LinkedIn"></a></li>
+            <li style="padding-top: 15px; padding-bottom: 15px; padding-right: 15px;"><a href="https://github.com/gl19"><img src="Images/icon-github.svg" width="30px" height="30px" alt="LinkedIn"></a></li>
+        </ul>
+    </div>
 </div>
 
 </body>
